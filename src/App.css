@@ -1,38 +1,90 @@
-.App {
-  text-align: center;
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0px;
+  background-color: #f5f5f5;
+  color: #333;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+header {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 20px 40px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1);
 }
 
-.App-link {
-  color: #61dafb;
+
+.Brand-name {
+  color: #82629b;
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.search-input {
+  display: flex;
+  align-items: center;
+}
+
+.search-input input {
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+  flex-grow: 1;
+  font-size: 16px;
+}
+
+.search-input input:focus {
+  border-color: #111;
+  outline: none;
+}
+
+.search-button {
+  background-color: #111;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.search-button:hover {
+  background-color: #222;
+}
+
+header div {
+  color: #a94442;
+  font-weight: bold;
+  margin-top: 10px;
+} */
+
+
+header h2 {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+header ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+}
+
+header li {
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+  margin-bottom: 5px;
+}
+
+header h3 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 600;
 }
